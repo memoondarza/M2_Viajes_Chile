@@ -15,14 +15,14 @@ header {
 
 header h4 {
     text-align: left;
-    width: 100%;
+    width: auto;
     display: inline-block;
 }
 
 header nav {
     text-align: right;
     display: inline-block;
-    width: 100%;
+    width: auto;
     color: #ffffff;
 
 }
@@ -105,7 +105,7 @@ header ul li a:active {
     color: #ffffff;
 }
 .imgCarrusel{
-    width:max-content;
+    width: auto;
     align-items: center;
     display: inline-block;
     justify-content: center;
@@ -128,6 +128,7 @@ header ul li a:active {
     margin: 5px;
     background-color: black;
     color:#ffffff;
+    margin-top: -3px;
 }
 
 label {
@@ -229,4 +230,8 @@ label {
 
 #ponerEnAmarillo {
     font-weight: bold;
+}
+
+footer{
+    margin-top: -5px;
 }
