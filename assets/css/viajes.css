@@ -67,6 +67,13 @@ header ul li a:active {
     font-size: 15pt;
     text-align: right;
     color: #ffffff;
+    
+}
+.texto5 {
+    font-size: 15pt;
+    text-align: right;
+    color: #ffffff;
+    margin-left: 400px;
 }
 .texto11 {
     font-size: 15pt;
