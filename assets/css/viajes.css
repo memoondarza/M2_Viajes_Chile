@@ -1,0 +1,230 @@
+
+.imgIcono{
+    margin-left: 55px;
+}
+
+header {
+    display:flex;
+    background-color: black;
+}
+
+header h4 {
+    text-align: left;
+    width: 100%;
+    display: inline-block;
+}
+
+header nav {
+    text-align: right;
+    display: inline-block;
+    width: 100%;
+    color: #ffffff;
+
+}
+
+header ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0.5em auto;
+    text-align: right;
+    width: 60%;
+}
+
+header ul li {
+    display: inline-block;
+    
+}
+
+header ul li a:hover {
+    background-color: #B8B799;
+    border-color: #B8B799;
+}
+
+header ul li a:active {
+    padding: 0.2em;
+}
+
+.imgTexto{
+    width: 20%;
+    height: 20%;
+    align-items: center;
+    display: inline-block;
+    justify-content: center;
+    margin-left: 150px;
+    
+}
+.relleno{
+    background-color: rgb(159, 166, 228);
+    width: auto; 
+}
+
+.texto0 {
+    font-size: 25pt;
+    text-align: center;
+}
+
+.texto1 {
+    font-size: 15pt;
+    text-align: right;
+    color: #ffffff;
+}
+.texto11 {
+    font-size: 15pt;
+    margin-left: 50px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.texto2 {
+    font-size: 10pt;
+    text-align: center;
+    margin: 5px;
+}
+
+.texto20 {
+    font-size: 10pt;
+    text-align: center;
+    margin: 5px;
+    color: #ffffff;
+}
+.imgCarrusel{
+    width:max-content;
+    align-items: center;
+    display: inline-block;
+    justify-content: center;
+}
+
+.fondoDestacados{
+    color: #ffffff;
+    text-align: justify;
+    
+}
+.fondoDestacadosCard {
+    background-color: #61adef;
+    color: #ffffff;
+    text-align: justify;
+
+}
+
+.secciones{
+    padding: 25px;
+    margin: 5px;
+    background-color: black;
+    color:#ffffff;
+}
+
+label {
+    display: block;
+    float: center;
+    
+}
+
+.contact_form {
+    color:#ffffff;
+    background-color: black;
+    align-items: center;
+    display: flex;
+    size: 40px;
+}
+
+.imgCard{
+    width: auto;
+    height: 180px;
+    display: flex;
+}
+
+
+.carousel-indicators [data-bs-target] {
+    background-color: #ecd5df;
+    position: relative;
+    
+    width: 60px;
+    height: 6px;
+    border: none;
+    border-radius: 24px;
+}
+
+.carousel-indicators [data-bs-target] span {
+    content:inherit;
+    position: static;
+    top: 100px;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-radius: inherit;
+    
+}
+
+#ponerEnRojoUno{
+    font-size: 20pt;
+    font-family: "Cabin-Regular", sans-serif;
+    text-align: left;
+    
+}
+
+#ponerEnRojoDos {
+    font-size: 20pt;
+    font-family: "Cabin-Regular", sans-serif;
+    text-align: left;
+   
+}
+
+
+.fa-facebook {
+    background: #0e3f80;
+}
+
+.fa-linkedin {
+    background: #3071ad;
+}
+
+.fa-twitter {
+    background: #1e99db;
+}
+
+.fa-instagram {
+    background: #b170a3;
+}
+
+.fa-google {
+    background: #37c32a;
+}
+.fa-github {
+    background: #751360;
+}
+
+.sociales{
+    display: flex-end;
+    align-items: center;
+    justify-content: center;
+    margin-left: 500px;
+}
+
+.sociales i {
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    margin: 1px;
+    
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#AlertaEnviarCorreo {
+    background-color: aqua;
+    color: brown
+}
+
+#ponerEnRojo {
+    font-weight: bold;
+}
+
+#ponerEnVerde {
+    font-weight: bold;
+}
+
+#ponerEnAmarillo {
+    font-weight: bold;
+}
